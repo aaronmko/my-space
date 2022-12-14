@@ -3,208 +3,89 @@
     padding: 0;
     margin: 0;
 }
-
+/* background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Gives the header color and font-style */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    font-family:"Gill Sans Extrabold", sans-serif;
+    background-color: #28353c;
     color: #ffffff;
 }
 
+
+/* Makes header Aaron's Portfolio larger */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 span {
-    color: #d9dcd6;
-}
-
+/* This is lines About me, Github, and Contact me */
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 25px;
+    float: inline-start;
+    font-family: "Gill Sans Extrabold", sans-serif;
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
+/* Lines About me, Github, and Contact me in a inline (straight) */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Gives About me, Github, and Contact me its color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Gives paragraphs their font color */
 p {
+    color: white;
     font-size: 16px;
 }
 
-
-/* Changed from hero class to the figure semantic element. */
-
-figure {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-
-
+/* Aligns About me photo */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+.float-left-1 {
+    float: left;
+    margin-right: 25px;
+
 }
 
-/* Changed .content to article element */
+.float-left-2 {
+    float: left;
+    margin-right: 25px;
+}
+
+
 article {
-    width: 75%;
+    width: 100%;
     display: inline-block;
-    margin-left: 20px;
+    
 
 }
 
-/* Changed .benefits to aside element */
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-    color: #ffffff;
-}
 
-
-
-aside section {
-    margin-bottom: 32px;
-}
-
-/* Consolidated 3 class img in aside section. */ 
-/*
-.benefit-lead {
-    margin-bottom: 32px;
-}
-.benefit-brand {
-    margin-bottom: 32px;
-}
-.benefit-cost {
-    margin-bottom: 32px;
-}
-*/
-
-
-
-aside section h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Consolidated 3 margin-bottom and text-align property for Aside section h3. */
-/*
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-
-
-
-aside img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Consolidated 3 Aside img values. */
-/*
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
 
 
 article section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* Consolidated 3 section values. */
-/*
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    background-color: lightslategray;
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
 
 
 
@@ -213,23 +94,7 @@ article section h2 {
     font-size: 36px;
 }
 
-/* Consolidated 3 h2 values in article section h2. */
-/*
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
 
 
 
@@ -238,26 +103,16 @@ article section img {
 
 }
 
-/* Consolidated 3 class img into the image class selectors in the article section img*/ 
-/*
-.search-engine-optimization img {
-    max-height: 200px;
-}
-.online-reputation-management img {
-    max-height: 200px;
-}
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
+
 
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Gill Sans Extrabold", sans-serif;
     text-align: center;
 }
 
 footer h2 {
     font-size: 20px;
 }
+
