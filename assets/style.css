@@ -1,21 +1,24 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-/* background color */
-body {
-    background-color: #d9dcd6;
-}
-
-/* Gives the header color and font-style */
-header {
-    padding: 20px;
+ .main-header {
+    display: flex;
+    /* Defines how to distribute the empty space between child elements */
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#28353c;
+    color: white;
     font-family:"Gill Sans Extrabold", sans-serif;
-    background-color: #28353c;
-    color: #ffffff;
-}
+  }
+  
+  /* Creates style on images and paragraph */
+  .images {
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    background: #13293d;
+    color: white;
 
+  }
 
 /* Makes header Aaron's Portfolio larger */
 header h1 {
@@ -37,77 +40,58 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* Gives About me, Github, and Contact me its color */
+/* Gives links font their color */
 a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Gives paragraphs their font color */
-p {
     color: white;
-    font-size: 16px;
 }
 
-/* Aligns About me photo */
+/* Aligns all images to the left and text to the right of image*/
 .float-left {
     float: left;
-    margin-right: 25px;
-}
-
-.float-left-1 {
-    float: left;
-    margin-right: 25px;
-
-}
-
-.float-left-2 {
-    float: left;
-    margin-right: 25px;
-}
-
-
-article {
-    width: 100%;
-    display: inline-block;
+    margin-right: 20px;
     
+}
+
+/* reduces width of articles to 80% of page */
+article {
+    width: 80%;
+    display: inline-block
 
 }
 
-
-
-
+/* creates articles areas size to fit in images and description */
 article section {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 50px;
     height: 300px;
     font-family: "Gill Sans Extrabold", sans-serif;
-    background-color: lightslategray;
-    color: #ffffff;
 }
 
 
-
-
+/* increase font size on h2 text */
 article section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    ;
 }
 
+/* size of paragraph text */
+p {
+    font-size: 18px;
 
+}
 
-
-
+/* size of images in article section */
 article section img {
-    max-height: 200px;
+    max-height: 300px;
 
 }
-
 
 
 footer {
-    padding: 30px;
-    clear: both;
+    color: black;
+    padding: 20px;
     font-family: "Gill Sans Extrabold", sans-serif;
     text-align: center;
 }
@@ -115,4 +99,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-
+  
