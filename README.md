@@ -24,7 +24,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-up
 
-The follow animation shows the web application's appearance and functionality: https://courses.bootcampspot.com/courses/2781/files/2341132/preview
+The follow animation shows the web application's appearance and functionality: 
+
+![Alt text](/assets/images/profile.jpg)
 
 ## Submission
 
